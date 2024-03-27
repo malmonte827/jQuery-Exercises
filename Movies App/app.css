@@ -1,0 +1,71 @@
+/* heading Styles */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    margin-left: 2.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+form button {
+    margin-left: 2rem;
+    color: white;
+    background-color: rgb(83, 68, 214);
+    border: rgba(177, 177, 177, 0.822) solid 1px;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+input {
+    padding: 1rem;
+    border: 1px solid rgb(177, 161, 161);
+    border-radius: 6px;
+}
+
+/* Table Styles */
+table {
+    border-spacing: 1;
+    background: white;
+    border-collapse: collapse;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 1500px;
+    width: 100%;
+    margin: 1rem auto;
+    position: relative;
+}
+
+thead tr {
+    height: 60px;
+    background: #ffed86;
+    font-size: 16px;
+}
+
+th,
+td {
+    padding: 15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: start;
+}
+
+td {
+    background-color: rgb(235, 235, 235);
+}
+
+table button {
+    color: white;
+    background-color: rgb(226, 24, 24);
+    border: rgba(177, 177, 177, 0.822) solid 1px;
+    border-radius: 5px;
+    padding: 10px 18px;
+}
